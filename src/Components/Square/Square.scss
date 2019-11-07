@@ -1,0 +1,19 @@
+@import '../../Colors.scss';
+
+.Square {
+	width: 2em;
+	height: 2em;
+	outline: none;
+}
+
+.Square:focus {
+	background-color: $color1;
+}
+
+.empty {
+    background-color: $empty;
+}
+
+.full {
+    background-color: $color2;
+}
